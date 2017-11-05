@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source_files = 'UTSDK/*.{h,m}'
   s.frameworks   = 'Foundation', 'UIKit','CoreBluetooth'
 
-#  s.libraries  = 'sqlite3.0', 'z', 'c++'
+  s.libraries  = 'sqlite3.0', 'c++'
   s.vendored_libraries = "UTSDK/*.{a}"
   s.vendored_frameworks = "UTSDK/*.{framework}"
 
